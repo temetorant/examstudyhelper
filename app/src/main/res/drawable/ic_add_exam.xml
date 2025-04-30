@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="40dp"
+    android:height="40dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <group
+        android:name="Group"
+        android:scaleX="1"
+        android:scaleY="1"
+        android:translateX="0"
+        android:translateY="0">
+        <path
+            android:fillColor="#10B981"
+            android:pathData="M24,1C11.85,1 2,10.85 2,23C2,35.15 11.85,45 24,45C36.15,45 46,35.15 46,23C46,10.85 36.15,1 24,1ZM24,40C13.95,40 6,32.05 6,23C6,13.05 13.95,6 24,6C34.05,6 42,13.05 42,23C42,32.05 34.05,40 24,40ZM24,11C23.45,11 23,11.45 23,12V23H12C11.45,23 11,23.45 11,24C11,24.55 11.45,25 12,25H23V36C23,36.55 23.45,37 24,37C24.55,37 25,36.55 25,36V25H36C36.55,25 37,24.55 37,24C37,23.45 36.55,23 36,23H25V12C25,11.45 24.55,11 24,11Z"/>
+    </group>
+</vector>
+

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp"
+    android:background="@drawable/item_background"
+    android:layout_marginBottom="8dp">
+
+    <!-- タスク名 -->
+    <TextView
+        android:id="@+id/tvTaskName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="タスク名"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/switchTaskStatus" />
+
+    <!-- カテゴリ -->
+    <TextView
+        android:id="@+id/tvTaskCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="カテゴリ: カテゴリ名"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvTaskName" />
+
+    <!-- 目標時間 -->
+    <TextView
+        android:id="@+id/tvTaskTargetTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="目標時間: XX時間"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvTaskCategory" />
+
+    <!-- トグルボタン -->
+    <ToggleButton
+        android:id="@+id/switchTaskStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="完了"
+        android:textOff="未完"
+        android:checked="false"
+        app:layout_constraintEnd_toStartOf="@id/btnDeleteTask"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="8dp" />
+
+    <!-- 削除ラベル -->
+    <TextView
+        android:id="@+id/tvDeleteLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="削除"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintEnd_toEndOf="@id/btnDeleteTask"
+        app:layout_constraintStart_toStartOf="@id/btnDeleteTask"
+        app:layout_constraintBottom_toTopOf="@id/btnDeleteTask" />
+
+    <!-- 削除ボタン -->
+    <ImageButton
+        android:id="@+id/btnDeleteTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_delete"
+        android:contentDescription="Delete Task"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+

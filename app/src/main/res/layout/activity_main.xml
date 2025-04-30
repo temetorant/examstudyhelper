@@ -1,0 +1,56 @@
+<!-- activity_main.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- アプリタイトル -->
+    <TextView
+        android:id="@+id/text_app_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="試験勉強サポートアプリ"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="8dp" />
+
+    <!-- 今日の日付 -->
+    <TextView
+        android:id="@+id/text_today_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="今日の日付"
+        android:textSize="16sp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="16dp" />
+
+    <!-- 試験一覧 -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_exam_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:paddingBottom="8dp" />
+
+    <!-- 追加ボタン -->
+    <Button
+        android:id="@+id/button_register_exam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="試験を登録"
+        android:src="@drawable/ic_add_exam"
+        android:backgroundTint="@color/teal_700"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
+
+
+
+
+

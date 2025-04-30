@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@drawable/item_background"
+    android:layout_marginBottom="8dp">
+
+    <!-- 上部の試験名 -->
+    <TextView
+        android:id="@+id/tvExamName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="試験名"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="4dp" />
+
+    <!-- 日付と残り日数を横並びに配置 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- 試験日 -->
+        <TextView
+            android:id="@+id/tvExamDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="試験日: YYYY/MM/DD"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:layout_marginBottom="4dp" />
+
+        <!-- 残り日数（右寄せ＆強調） -->
+        <TextView
+            android:id="@+id/tvDaysRemaining"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="残り日数: XX日"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:gravity="end" />
+    </LinearLayout>
+
+</LinearLayout>
+
+

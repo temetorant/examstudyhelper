@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ui.ExamDetailActivity">
+
+    <!-- 試験名と試験日 -->
+    <TextView
+        android:id="@+id/tvExamName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="試験名"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvExamDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="試験日: YYYY-MM-DD"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/text_view_remaining_days"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="残り日数: 100日"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- 円グラフ -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="16dp">
+
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/barChart"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp" />
+
+
+    </FrameLayout>
+
+    <!-- タスクリスト -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="勉強タスク"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvTaskList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical" />
+
+    <!-- タスク追加ボタン -->
+    <Button
+        android:id="@+id/btnAddTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="タスクを追加する"
+        android:backgroundTint="@color/teal_700"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="16dp" />
+
+    <!-- ホームに戻るボタン -->
+    <Button
+        android:id="@+id/btnGoToHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:text="ホームに戻る"
+        android:backgroundTint="@color/primaryColor"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rvTaskList"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</LinearLayout>
+

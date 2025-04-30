@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- タスク名 -->
+    <TextView
+        android:id="@+id/tvTaskName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="タスク名"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <!-- カテゴリーと進捗・ステータスを横並びに -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- カテゴリー（左側） -->
+        <TextView
+            android:id="@+id/tvTaskCategory"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="カテゴリー"
+            android:layout_weight="1" />
+
+        <!-- 進捗 -->
+        <TextView
+            android:id="@+id/tvTaskProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="進捗"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingEnd="8dp" />
+
+        <!-- ステータス -->
+        <TextView
+            android:id="@+id/tvTaskStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ステータス"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent" />
+    </LinearLayout>
+
+    <!-- 閉じるボタン（中央配置） -->
+    <Button
+        android:id="@+id/btnClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="閉じる"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp" />
+
+</LinearLayout>
+
