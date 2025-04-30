@@ -13,6 +13,7 @@
 .externalNativeBuild
 .cxx
 local.properties
+app/src/main/java/com/websarva/wings/gitignoretest/apikey/Apikey.kt
 
 # built application files
 *.apk
