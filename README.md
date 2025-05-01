@@ -18,7 +18,11 @@ ExamStudyHelper　試験勉強サポートアプリ
 
 ## 実際につかっているところ
 
-https://github.com/user-attachments/assets/4141450f-5309-42d0-8852-3ecb6c5a4551
+https://github.com/user-attachments/assets/8677b2dd-6404-419e-a46b-fd8243ecdb9b
 
 ## Google Play Store
 いつかはやってみたい
+
+
+
+
