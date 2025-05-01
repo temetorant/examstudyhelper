@@ -1,6 +1,6 @@
 
 # アプリ名
-## ExamStudyHelper　試験勉強サポートアプリ
+ExamStudyHelper　試験勉強サポートアプリ
 
 ## 簡単な説明
 「ExamStudyHelper」は受験準備を効率化してくれる学習支援アプリです。
