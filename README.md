@@ -16,6 +16,8 @@ ExamStudyHelper　試験勉強サポートアプリ
 学生、社会人、資格取得を目指す全ての人にとって、試験勉強がよりスマートに進められる強力なツールです。
 もちろん、邪魔な広告や有料機能は一切ございません。
 
+## 実際につかっているところ
+https://github.com/user-attachments/assets/92660a6c-6d4d-40d1-b0a8-b386cf67591b
 
 ## Google Play Store
 いつかはやってみたい
