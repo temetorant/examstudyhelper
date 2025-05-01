@@ -17,7 +17,8 @@ ExamStudyHelper　試験勉強サポートアプリ
 もちろん、邪魔な広告や有料機能は一切ございません。
 
 ## 実際につかっているところ
-https://github.com/user-attachments/assets/92660a6c-6d4d-40d1-b0a8-b386cf67591b
+
+https://github.com/user-attachments/assets/4141450f-5309-42d0-8852-3ecb6c5a4551
 
 ## Google Play Store
 いつかはやってみたい
