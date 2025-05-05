@@ -21,6 +21,15 @@ ExamStudyHelper　試験勉強サポートアプリ
 
 ![アプリ紹介](https://github.com/user-attachments/assets/2e7ef0d1-3829-4020-941f-aa4ee216198a)
 
+試験詳細画面からタスクを追加しているところです。
+
+![ExamStudyHelper操作デモ1](https://github.com/user-attachments/assets/68aa041f-6821-4441-b5f9-3015761ef856)
+
+タスクの達成度を確かめてみるところです。
+
+![ExamStudyHelper操作デモ2](https://github.com/user-attachments/assets/2bb4f9a2-45bf-4337-b173-3aa70ebe2484)
+
+
 ## Google Play Store
 いつかはやってみたい
 
